@@ -18,7 +18,7 @@ print(letters[::-1])   # Reversed: ['F', 'E', 'D', 'C', 'B', 'A']
 # negative indexes
 print(letters[-5:-1])   # ['B', 'C', 'D', 'E']
 print(letters[-2:])     # ['E', 'F']
-print(letters[-4:])     # ['C', 'D', 'E', 'F']
+print(letters[:-4])     # ['A', 'B']
 print(letters[-1::-1])  # Reversed: ['F', 'E', 'D', 'C', 'B', 'A']
 
 # to be noted
