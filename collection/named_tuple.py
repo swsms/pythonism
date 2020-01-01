@@ -14,7 +14,7 @@ print(py_dev_job)  # Job(title='Python Developer', skills=['Python', 'Git'], mon
 print(py_dev_job.title)  # Python Developer
 print(py_dev_job[1])     # ['Python', 'Git']
 
-Person = namedtuple('Person', 'name age looking_for_job', defaults=(False, ))
+Person = namedtuple('Person', 'name age looking_for_job', defaults=(False,))
 
 john = Person(name='John', age=40)
 print(john)  # Person(name='John', age=40, looking_for_job=True)
