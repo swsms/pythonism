@@ -1,7 +1,9 @@
 fruits = ('apple', 'banana', 'cherry')
+print(len(fruits))  #
+print(fruits)       # ('apple', 'banana', 'cherry')
 
-print(fruits)     # ('apple', 'banana', 'cherry')
 print(fruits[0])  # apple
+print(fruits[1])  # cherry
 
 print(fruits.count('apple'))   # 1
 print(fruits.index('cherry'))  # 2
