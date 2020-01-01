@@ -1,5 +1,5 @@
 # pythonism
-The most pythonic features of Python.
+The most pythonic features of Python in short examples.
 
 This repo demonstrates the features of Python that allow developers to write well-readable and concise code.
 
